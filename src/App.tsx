@@ -60,7 +60,7 @@ function App() {
       justifyContent="center"
       style={{ minHeight: '100vh' }}
     >
-      <Grid item xs={3} style={{ maxWidth: '400px' }}>
+      <Grid item xs={3} style={{ maxWidth: '400px', padding: '0 10px' }}>
         <Grid
           container
           spacing={2}
