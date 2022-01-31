@@ -60,7 +60,7 @@ function App() {
       justifyContent="center"
       style={{ minHeight: '100vh' }}
     >
-      <Grid item xs={3}>
+      <Grid item xs={3} style={{ maxWidth: '400px' }}>
         <Grid
           container
           spacing={2}
@@ -69,7 +69,7 @@ function App() {
           alignItems="center"
         >
           <Grid item>
-            <Typography variant="h4" style={{ wordWrap: 'break-word', marginBottom: '10px' }}>{password}</Typography>
+            <Typography variant="h4" style={{ wordBreak: 'break-all', marginBottom: '10px' }}>{password}</Typography>
           </Grid>
           <Grid item>
             <TextField
